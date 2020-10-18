@@ -9,6 +9,6 @@ steps:
   args:
   - run
   - --filename=gs://demogit/deployment.yaml ##storage on google cloud
-  - --image=gcr.io/civic-summer-280810/demo:$TAG_NAME
+  - --image=gs://artifacts.civic-summer-280810.appspot.com/demo:$TAG_NAME
   - --location=asia-northeast1-a
   - --cluster=k8scluster
