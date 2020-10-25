@@ -18,7 +18,7 @@ spec:
         app: helloword
     spec:
       containers:
-      - image: gcr.io/civic-summer-280810/demo:1.1.4
+      - image: gcr.io/civic-summer-280810/demo:1.1.5
         name: helloword-demo
         resources: {}
 status: {}
